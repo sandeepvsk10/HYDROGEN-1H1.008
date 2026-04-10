@@ -5,6 +5,6 @@
 $\Huge \color{blue} ^1\text{ H }_{1.008}$
 
 
-This project is built to showcase everything one can know about element matter - Hydrogen, the very fundamental entity of all observable universe.
+This project is built to showcase everything one can learn about the element **Matter - Hydrogen**, the very fundamental entity of all observable universe. and also with an anti-matter hydrogen still in research from our great researchers at CERN.
 
-Reason that led me to build this is to showcase a beautiful representation of hydrogen, its properties and related information.
+Reason I wanted to do and led me to build this is to showcase a beautiful representation of hydrogen in a web canvas, its properties and related information.
