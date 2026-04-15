@@ -22,7 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Local media files excluded from Git history
-src/assets/14193998_2048_1080_30fps.mp4
-src/assets/14672624_1920_1080_60fps.mp4
