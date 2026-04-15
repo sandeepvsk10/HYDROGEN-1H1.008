@@ -1,5 +1,4 @@
 ### HYDROGEN
-நீரகம்
 
 ---
 $\Huge \color{blue} ^1\text{ H }_{1.008}$
