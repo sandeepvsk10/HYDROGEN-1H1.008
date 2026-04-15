@@ -1,0 +1,57 @@
+.hydrogen-schrodinger-root {
+  --hydrogen-schrodinger-cloud: #93c5fd;
+}
+
+@keyframes hydrogen-schrodinger-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hydrogen-schrodinger-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.92;
+  }
+  50% {
+    transform: scale(1.035);
+    opacity: 1;
+  }
+}
+
+@keyframes hydrogen-schrodinger-proton-wiggle {
+  0%,
+  88%,
+  100% {
+    transform: translate(0, 0);
+  }
+  92% {
+    transform: translate(0.6px, -0.2px);
+  }
+  95% {
+    transform: translate(-0.3px, 0.7px);
+  }
+  97% {
+    transform: translate(0.4px, 0.2px);
+  }
+}
+
+.hydrogen-schrodinger-cloud-rotate {
+  transform-origin: 250px 250px;
+  animation: hydrogen-schrodinger-rotate 20s linear infinite;
+}
+
+.hydrogen-schrodinger-cloud-pulse {
+  transform-origin: 250px 250px;
+  animation: hydrogen-schrodinger-pulse 6.5s ease-in-out infinite;
+}
+
+.hydrogen-schrodinger-proton {
+  transform-origin: 250px 250px;
+  animation: hydrogen-schrodinger-proton-wiggle 9s infinite;
+}
+

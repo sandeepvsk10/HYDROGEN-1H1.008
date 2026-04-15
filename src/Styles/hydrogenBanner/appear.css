@@ -1,0 +1,23 @@
+@keyframes hydrogen-banner-appear {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hydrogen-banner-appear {
+  animation: hydrogen-banner-appear 1.8s ease-out forwards;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hydrogen-banner-appear {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
