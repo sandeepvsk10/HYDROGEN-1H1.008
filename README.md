@@ -1,5 +1,7 @@
 ### HYDROGEN
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sandeepvsk10/HYDROGEN-1H1.008)
+
 ---
 $\Huge \color{blue} ^1\text{ H }_{1.008}$
 
